@@ -1,0 +1,14 @@
+.image {
+    background-image: url("Assets/background.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.form-info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+:invalid {
+    border-color: red;
+}

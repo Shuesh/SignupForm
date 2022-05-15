@@ -10,39 +10,58 @@
     <title>Sign-up Form</title>
 </head>
 <body class="container">
-    <div class="image">
-        <img src="http://via.placeholder.com/300x400" alt="Background image">
-        <img src="http://via.placeholder.com/300x100" alt="Odin logo">
-    </div>
-    <div class="form">
-        <p>
-            This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
-            <br>
-            You <em>know</em> you want to.
-        </p>
-        <form>
-            <div class="form-info container">
-                <p>Let's do this!</p>
-                <label for="fname">First Name</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="lname">Last Name</label><br>
-                <input type="text" id="lname" name="lname"><br>
-                <label for="email">Email</label><br>
-                <input type="email" id="email" name="email"><br>
-                <label for="phone">Phone Number</label><br>
-                <input type="tel" id="phone" name="phone"><br>
-                <label for="password">Password</label><br>
-                <input type="password" id="password" name="password"><br>
-                <label for="confirm-pass">Confirm Password</label><br>
-                <input type="password" id="confirm-pass" name="confirm-pass"><br>
-            </div>
-            <div class="submit container">
-                <input type="submit" name="submit" id="submit">
-                <p>
-                    Already have an account? <a href="login">Log in</a>
-                </p>
-            </div>
-        </form>
+    <div class="row">
+        <div class="image col-4">
+            <img src="Assets/odin-logo.png" alt="Odin logo">
+        </div>
+        <div class="form col-8">
+            <p>
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+                <br>
+                You <em>know</em> you want to.
+            </p>
+            <form class="row">
+                <div class="form-info">
+                    <p>Let's do this!</p>
+                    <div class="row">
+                        <div class="col">
+                            <label for="fname">First Name</label><br>
+                            <input type="text" id="fname" name="fname">
+                        </div>
+                        <div class="col">
+                            <label for="lname">Last Name</label><br>
+                            <input type="text" id="lname" name="lname">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="col">
+                            <label for="phone">Phone Number</label><br>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="password">Password</label><br>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="col">
+                            <label for="confirm-pass">Confirm Password</label><br>
+                            <input type="password" id="confirm-pass" name="confirm-pass">
+                        </div>
+                    </div>
+                </div>
+                <div class="create-account">
+                    <input type="button" value="Create Account">
+                    <p>
+                        Already have an account? <a href="login">Log in</a>
+                    </p>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
