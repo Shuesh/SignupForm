@@ -1,14 +1,73 @@
+:root {
+    background-color: black;
+}
+
+
+
+
 .image {
-    background-image: url("Assets/background.jpg");
-    background-size: cover;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.image #background {
     height: 100vh;
+    width: 100%;
+}
+
+.image #logo {
+    height: 10%;
+    position: absolute;
+    width: 75%;
+    bottom: 16%;
+}
+
+
+
+
+.welcome {
+    padding-left: 18px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 450;
+    padding-left: 0;
 }
 
 .form-info {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 30px;
 }
 
-:invalid {
-    border-color: red;
+.form-control {
+    width: 85%;
+}
+
+.create-account {
+    padding-left: 30px;
+}
+
+.btn {
+    font-weight: bold;
+    padding: 15px 60px 15px 60px;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
 }

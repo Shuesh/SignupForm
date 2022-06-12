@@ -11,51 +11,52 @@
 </head>
 <body class="container">
     <div class="row">
-        <div class="image col-4">
-            <img src="Assets/odin-logo.png" alt="Odin logo">
+        <div class="image col-5">
+            <img src="Assets/bible-study.png" alt="Bible study" id="background">
+            <img src="Assets/Hope_Downtown.png" alt="Hope CC logo" id="logo">
         </div>
-        <div class="form col-8">
-            <p>
-                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
-                <br>
-                You <em>know</em> you want to.
+        <div class="form col-7 g-0">
+            <p class="welcome">
+                Welcome to Hope Community Church! We're glad you're interested in joining a small group.
+                Fill in your information to create an account and receive a follow-up message from one of our staff.
+                We'll try to get you placed in a small group based on your location and availability.
             </p>
             <form class="row">
-                <div class="form-info">
-                    <p>Let's do this!</p>
+                <div class="form-info shadow">
+                    <p>Fill out all the fields below:</p>
                     <div class="row">
                         <div class="col">
                             <label for="fname">First Name</label><br>
-                            <input type="text" id="fname" name="fname">
+                            <input type="text" id="fname" name="fname" class="form-control" placeholder="John">
                         </div>
                         <div class="col">
                             <label for="lname">Last Name</label><br>
-                            <input type="text" id="lname" name="lname">
+                            <input type="text" id="lname" name="lname" class="form-control" placeholder="Doe">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
                             <label for="email">Email</label><br>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="your_email@email.com">
                         </div>
                         <div class="col">
                             <label for="phone">Phone Number</label><br>
-                            <input type="tel" id="phone" name="phone">
+                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="###-###-####">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
                             <label for="password">Password</label><br>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" class="form-control" placeholder="Password">
                         </div>
                         <div class="col">
                             <label for="confirm-pass">Confirm Password</label><br>
-                            <input type="password" id="confirm-pass" name="confirm-pass">
+                            <input type="password" id="confirm-pass" name="confirm-pass" class="form-control" placeholder="Confirm Password">
                         </div>
                     </div>
                 </div>
                 <div class="create-account">
-                    <input type="button" value="Create Account">
+                    <input type="button" value="Create Account" class="btn btn-primary btn-lg">
                     <p>
                         Already have an account? <a href="login">Log in</a>
                     </p>
