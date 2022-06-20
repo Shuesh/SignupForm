@@ -55,6 +55,12 @@ p {
 
 .form-control {
     width: 85%;
+    border-color: #E5E7EB;
+}
+
+.form-control:focus {
+    border-color: blue;
+    box-shadow: 4px 4px 2px #E5E7EB;
 }
 
 .create-account {
@@ -70,4 +76,17 @@ p {
 a {
     text-decoration: none;
     font-weight: bold;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+.error {
+    margin-bottom: -23px;
+    padding-bottom: 0;
+    padding-left: 15px;
+    font-size: 0.95rem;
+    font-weight: normal;
+    color: red;
 }
